@@ -1,0 +1,208 @@
+.logInBox {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 1px black;
+}
+
+.regBox {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 1px black;
+}
+
+.fpBox {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 1px black;
+}
+
+.formChanger {
+
+    text-decoration: underline;
+    font-weight: bold;
+
+
+}
+
+.formChanger:hover {
+
+    cursor: pointer;
+
+}
+
+.fplabel:hover {
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: grapeNuts;
+    src: url("src/fonts/GrapeNuts-Regular.ttf");
+}
+
+.nameh1 {
+    font-family: grapeNuts;
+    font-weight: bolder;
+
+}
+
+.head {
+    margin-left: 45%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.label1 {
+
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.label2 {
+
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.label3 {
+
+    color: bisque;
+    font-size: 20px;
+    font-weight: bold;
+
+
+
+}
+
+.label1:hover {
+
+    cursor: pointer;
+    color: bisque;
+
+}
+
+.label2:hover {
+
+    cursor: pointer;
+    color: bisque;
+
+}
+
+.logout:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.txtColour {
+    color: rgb(22, 7, 157);
+}
+
+.Box:hover {
+
+    margin-top: -10px;
+
+
+}
+
+
+.mainImg {
+    height: 640px;
+    width: 400px;
+
+
+}
+
+.product-qty {
+    width: 100%;
+    height: 45px;
+    padding: 5px;
+
+}
+
+.qty-buttons {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+    border: solid 1px rgb(72, 71, 71);
+}
+
+.qty-inc,
+.qty-dec {
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+
+.qty-inc :active {
+    margin-top: 2px;
+}
+
+
+.qty-dec :active {
+    margin-top: 2px;
+}
+
+.qty-inc {
+    border-top-right-radius: 5px;
+}
+
+.qty-dec {
+    border-bottom-right-radius: 5px;
+}
+
+.emptyView {
+    height: 400px;
+    background-image: url("src/images/watchlistEmptyView.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.emptyCart {
+    height: 400px;
+    background-image: url("src/images/emptycart.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.invoiceBtn {
+
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.invoiceBtn:active {
+
+    background-color: RGBA(var(--bs-light-rgb), var(--bs-bg-opacity, 1));
+
+}
+
+.invoiceBtn:hover {
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #cd9cf2;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1))
+}
+
+.selected-checkbox img {
+    border: 3px solid #8080ff;
+}
